@@ -10,7 +10,11 @@ body {
 .container-hero {
     background-color: #1f2937;
 }
-
+.hero-maintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
 
 
 
