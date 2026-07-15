@@ -167,7 +167,44 @@ display: flex;
 justify-content: right;
 }
 
+/* quote section ends here */
 
+/* modal section starts here */
+
+.container-modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 900px;
+    box-sizing: border-box;
+    margin: 100px 300px;
+    padding: 40px 60px;
+}
+
+.modal-button button {
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    margin-top: 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.modal-header {
+    font-size: 24px;
+    font-weight: 500;
+}
+/* modal section ends here */
 
 /* footer section */
 
