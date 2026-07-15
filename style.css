@@ -81,6 +81,10 @@ button {
     padding: 100px;
     width: 600px;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 
