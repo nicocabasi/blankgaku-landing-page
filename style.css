@@ -96,6 +96,7 @@ button {
 .container-info { 
     display: flex;
     flex-direction: column;
+    padding: 50px 200px;
 }
 
 .info-header {
@@ -109,6 +110,28 @@ button {
 .info {
     display: flex;
     flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 12px;
+    width: 25px;
+    height: 25px;
+    padding: 100px;
+}
+
+.info-text {
+    text-align: center;
 }
 
 /* info section ends here */
