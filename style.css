@@ -41,6 +41,7 @@ ul a {
 }
 
 /* header section ends here */
+
 /* hero section starts here */
 
 .container-hero {
@@ -87,11 +88,22 @@ button {
     color: white;
 }
 
+/* hero section ends here */
+
+/* info section starts here */
+
+
+.container-info { 
+    display: flex;
+    flex-direction: column;
+}
 
 .info-header {
         font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    display: flex;
+     justify-content: center;
 }
 
 .container-quote {
@@ -102,6 +114,8 @@ button {
     color: #1f2937;
     font-weight: 300;
 }
+
+
 
 /* footer section */
 
