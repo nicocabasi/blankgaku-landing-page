@@ -108,30 +108,37 @@ button {
 }
 
 .info {
-    text-align: center;
     display: flex;
+    gap: 50px;
     margin: 50px;
-
+        justify-content: center;
+    align-items: center;
 }
 
 .item {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap: 8px;
 }
 
 .info-image {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
     border-style: solid;
     border-color: #3882F6;
     border-radius: 12px;
-    width: 20px;
-    height: 20px;;
-    padding: 75px;
+    border-width: 5px;
+
 }
 
 .info-text {
+    box-sizing: border-box;
+    width: 150px;
+    text-align: center;
+
 }
 
 /* info section ends here */
@@ -139,12 +146,22 @@ button {
 /* quote section starts here */
 
 .container-quote {
+    box-sizing: border-box;
     background-color: #E5e7eb;
 }
+.quote {
+    box-sizing: border-box;
+}
+
+/*
 .container-quote p {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+}
+*/
+.container-quote cite {
+text-align: right;
 }
 
 
